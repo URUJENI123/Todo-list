@@ -1,0 +1,150 @@
+.weekly-container {
+  background-color: #181c1b;
+  min-height: 100vh;
+  color: white;
+  padding: 0 1.5rem 2rem 1.5rem;
+}
+
+.weekly-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.task-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.task-item {
+  background: #212c29;
+  border: 1px solid #1c201f;
+  border-radius: 2rem;
+  padding: 1rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: border-color 0.2s;
+}
+
+.task-item:hover {
+  border-color: #a5a763;
+}
+
+.task-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex: 1;
+}
+
+.task-number {
+  color: #cecece;
+  font-weight: 500;
+  width: 2rem;
+  text-align: center;
+}
+
+.task-name {
+  color: white;
+  font-weight: 500;
+}
+
+.task-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.edit-btn {
+  background: #daddff;
+  color: #181c1b;
+  border: none;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+}
+
+.edit-btn:hover {
+  background: #e6e5c0;
+}
+
+.delete-btn {
+  background: #ed4b4b;
+  color: white;
+  border: none;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+}
+
+.delete-btn:hover {
+  background: #dc2626;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 3rem;
+}
+
+.empty-card {
+  background: #212c29;
+  border: 1px solid #1c201f;
+  border-radius: 2rem;
+  padding: 2rem;
+}
+
+.empty-title {
+  color: #cecece;
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+}
+
+.empty-text {
+  color: #cecece;
+  font-size: 0.875rem;
+}
+
+.edit-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex: 1;
+}
+
+.edit-input {
+  flex: 1;
+  background: transparent;
+  border: 1px solid #a5a763;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  outline: none;
+}
+
+.save-btn {
+  background: #4ade80;
+  color: white;
+}
+
+.save-btn:hover {
+  background: #22c55e;
+}
+
+.cancel-btn {
+  background: #6b7280;
+  color: white;
+}
+
+.cancel-btn:hover {
+  background: #4b5563;
+}
