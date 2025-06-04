@@ -15,3 +15,5 @@ A clean, user-friendly to-do planner built with React. The app allows users to o
 - React (via CDN or local setup)
 - External CSS for styling
 - Font Awesome for icons
+
+Deployment link: todo-list-snowy-eta.vercel.app
