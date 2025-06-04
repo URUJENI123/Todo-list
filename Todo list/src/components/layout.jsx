@@ -5,6 +5,7 @@ import { useState, useEffect } from "react"
 import { Plus, Calendar, Clock, BarChart3, CalendarDays } from "lucide-react"
 import "../styles/navbar.css"
 
+// eslint-disable-next-line react/prop-types
 function Layout({ onAddTask }) {
   const [taskName, setTaskName] = useState("")
   const [duration, setDuration] = useState("daily")
